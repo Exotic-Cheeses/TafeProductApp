@@ -17,5 +17,8 @@
 
         <TextBlock x:Name='totalChargeTextBlock' Text="Total After Delivery ($25) $: " VerticalAlignment="Bottom" Height="80" Margin="28"/>
         <TextBox x:Name="totalChargeTextBox" VerticalAlignment="Top" Margin="176,226,227,0" Height="17" RenderTransformOrigin="0.51,0.873" />
+
+        <TextBlock x:Name='wrapChargeTextBlock' Text="Total After Wrap ($5) $: " VerticalAlignment="Bottom" Height="60" Margin="28"/>
+        <TextBox x:Name="wrapChargeTextBox" VerticalAlignment="Top" Margin="176,249,227,0" Height="17" RenderTransformOrigin="0.483,1.705" />
     </Grid>
 </Window>
