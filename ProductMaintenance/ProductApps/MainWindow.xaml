@@ -20,5 +20,8 @@
 
         <TextBlock x:Name='wrapChargeTextBlock' Text="Total After Wrap ($5) $: " VerticalAlignment="Bottom" Height="60" Margin="28"/>
         <TextBox x:Name="wrapChargeTextBox" VerticalAlignment="Top" Margin="176,249,227,0" Height="17" RenderTransformOrigin="0.483,1.705" />
+
+        <TextBlock x:Name='gstChargeTextBlock' Text="Total After GST (10%) $: " VerticalAlignment="Top" Height="60" Margin="28,268,28,0"/>
+        <TextBox x:Name="gstChargeTextBox" VerticalAlignment="Top" Margin="176,271,227,0" Height="17" RenderTransformOrigin="0.483,1.705" />
     </Grid>
 </Window>
